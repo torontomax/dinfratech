@@ -17,11 +17,12 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-primary to-neon-glow rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">D</span>
-            </div>
-            <span className="text-xl font-bold text-foreground">Dinfratech</span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/733cbcb1-d505-478c-9598-3bd9ebfd07d3.png" 
+              alt="Dinfratech Logo" 
+              className="h-8 w-auto"
+            />
           </div>
 
           {/* Desktop Menu */}

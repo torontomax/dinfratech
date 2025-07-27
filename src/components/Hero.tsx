@@ -16,19 +16,16 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto text-center space-y-8">
+          {/* Logo Principal */}
+          <div className="mb-8">
+            <img 
+              src="/lovable-uploads/f43f60c0-f38a-4839-8943-aafc77b4621e.png" 
+              alt="Dinfratech - Conectando soluções, otimizando resultados" 
+              className="mx-auto max-w-full h-auto max-h-64 md:max-h-80"
+            />
+          </div>
+          
           <div className="space-y-4">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              <span className="text-foreground">Conectando</span>{" "}
-              <span className="bg-gradient-to-r from-primary to-neon-glow bg-clip-text text-transparent">
-                soluções
-              </span>
-              <br />
-              <span className="text-foreground">otimizando</span>{" "}
-              <span className="bg-gradient-to-r from-neon-glow to-primary bg-clip-text text-transparent">
-                resultados
-              </span>
-            </h1>
-            
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               A Dinfratech oferece suporte inteligente e soluções completas em tecnologia 
               para impulsionar o seu negócio.

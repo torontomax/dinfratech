@@ -28,12 +28,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-neon-glow rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">D</span>
-              </div>
-              <span className="text-xl font-bold text-foreground">Dinfratech</span>
-            </div>
+            <img 
+              src="/lovable-uploads/d687b268-6d79-406e-9063-cf4e0c9dab8a.png" 
+              alt="Dinfratech Logo" 
+              className="h-12 w-auto"
+            />
             <p className="text-muted-foreground leading-relaxed">
               Conectando soluções, otimizando resultados. Sua parceira em tecnologia 
               para impulsionar o crescimento do seu negócio.
